@@ -1,0 +1,28 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "blit",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the Blit Chain",
+      "denom_units": [
+        {
+          "denom": "ublit",
+          "exponent": 6
+        }
+      ],
+      "base": "ublit",
+      "name": "Blit",
+      "display": "blit",
+      "symbol": "BLIT",
+      "logo_URIs": {
+        "png": "#link to pic",
+        "svg": "#link to pic"
+      },
+      "coingecko_id": "",
+      "images": [
+        {
+          "png": "#link to pic",
+          "svg": "#link to pic"
+        }
+      ]
+    },

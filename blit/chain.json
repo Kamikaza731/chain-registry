@@ -1,0 +1,98 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "Blit",
+  "website": "https://blitchain.net",
+  "status": "live",
+  "network_type": "mainnet",
+  "pretty_name": "Blit Chain",
+  "chain_id": "blit-1",
+  "bech32_prefix": "blit",
+  "node_home": "$HOME/.blit",
+  "daemon_name": "blitd",
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ublit",
+        "low_gas_price": 0,
+        "average_gas_price": 0,
+        "high_gas_price": 0
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "ublit"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/BlitChain/blitchain",
+    "recommended_version": "v0.7",
+    "compatible_versions": [
+	"v0.7"
+	],
+    "genesis": {
+      "genesis_url": "#needs to be filled later"
+    },
+    "versions": [
+      {
+        "name": "v0.7",
+		"tag": "v0.7"
+        "recommended_version": "v0.7",
+        "compatible_versions": [
+		"v0.7"
+		],
+		"cosmos_sdk_version": "v0.50.0-rc.0.0.20231206101732-c6f95ad20c65",
+        "ibc_go_version": "v8.0.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.38.2"
+        },
+        "height": 0,
+        "binaries": {
+          "linux/amd64": "# link to download binary"
+        },
+      }
+    ]
+  },
+  "description": "Blit Chain is home to inovation combining Python with Cosmos SDK #should be be changed"
+  "logo_URIs": {
+    "png": "# to be filled later",
+    "svg": "# to be filled later"
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": []
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.blitchain.net:443",
+        "provider": "Blit Chain Official"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.blitchain.net:443",
+        "provider": "Blit Chain Official"
+      }
+    ],
+    "grpc": []
+  },
+  "explorers": [
+    {
+      "kind": "Blit Chain",
+      "url": "https://explorer.blitchain.net/blit",
+      "tx_page": "https://explorer.blitchain.net/blit/tx/${txHash}",
+      "account_page": "https://explorer.blitchain.net/blit/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "# to be linked later",
+      "svg": "# to be linked later"
+    }
+  ]
+}
